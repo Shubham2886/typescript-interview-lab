@@ -1,0 +1,24 @@
+{
+  "name": "typescript-interview-lab",
+  "version": "1.0.0",
+  "description": "TypeScript Interview Preparation - Concepts + Real API",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "concepts": "ts-node src/concepts/run-all.ts"
+  },
+  "keywords": ["typescript", "interview", "node", "express"],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
